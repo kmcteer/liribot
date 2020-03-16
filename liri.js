@@ -6,15 +6,7 @@ var keys = require('./keys.js');
 var axios = require("axios")
 var Spotify = require('node-spotify-api');
 
-// next, look up twitter npm package to see how to install
 
-// var spotify = new Spotify({
-//     id: keys.id,
-//     secret: keys.secret
-// });
-
-
-// command line
 var cmd = process.argv[2]
 var topic = process.argv.slice(3).join(" ")
 console.log(cmd, topic)
