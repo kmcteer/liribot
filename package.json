@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kmcteer/giribot.git"
+    "url": "git+https://github.com/kmcteer/Liribot.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kmcteer/giribot/issues"
+    "url": "https://github.com/kmcteer/Liribot/issues"
   },
-  "homepage": "https://github.com/kmcteer/giribot#readme",
+  "homepage": "https://github.com/kmcteer/Liribot#readme",
   "dependencies": {
     "axios": "^0.19.1",
     "dotenv": "^8.2.0",
