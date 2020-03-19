@@ -77,7 +77,9 @@ function concertThis(concert) {
 
     axios.get("https://rest.bandsintown.com/artists/" + concertQuery + "/events?app_id=codingbootcamp").then(function (response) {
         var jsonData = response.data;
-
+    if (jsonData.length === 0){
+        console.log("we don't find concerts")
+    }
         for (var i = 0; i < jsonData.length; i++) {
             var divider = "\n--------------------------------------------------------------\n\n";
             var concertFind = [
